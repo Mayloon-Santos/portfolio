@@ -59,6 +59,12 @@
         display: flex;
         justify-content: center;
         align-items: center; 
+
+        font-size: 0.6rem;
+        padding: 10px;
+        margin: 10px;
+        width: 400px;
+        height: 300px;
     }
     
     #projetos li {
@@ -76,11 +82,11 @@
         margin: 10px;
     }
     
-    #sobre .sobre-mim p {
+    #sobre .sobre-mim .container p {
         font-size: 0.6rem;
         padding: 1px;
         margin: 1px;
-        width: 350px;
+        width: 330px;
         height: 100px;
     }
     
