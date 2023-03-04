@@ -1,0 +1,92 @@
+@media (max-width: 1200px) {
+    #sobre .sobre-mim h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 20px;
+        margin: 25px;
+    }
+
+    #sobre .sobre-mim .container p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1.1rem;
+        padding: 50px;
+        margin: 50px;
+        width: 1000px;
+        height: 800px;
+    }
+
+    #projetos li {
+        display: center;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    #sobre .sobre-mim .container p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 0.9rem;
+        margin: 50px;
+        margin: 50px;
+        width: 600px;
+        height: 400px;
+    }
+    
+    #projetos li {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        width: max-content;
+    }
+    
+    #sobre .sobre-mim .container p {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    #projetos li {
+        width: 70%;
+    }
+}
+
+@media (max-width: 376px) {
+    #sobre .sobre-mim h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 20px;
+        margin: 10px;
+    }
+    
+    #sobre .sobre-mim p {
+        font-size: 0.6rem;
+        padding: 1px;
+        margin: 1px;
+        width: 350px;
+        height: 100px;
+    }
+    
+    #projetos li {
+        width: 90%;
+    }
+    
+}
+
