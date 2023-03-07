@@ -47,12 +47,32 @@
 }
 
 @media (max-width: 500px) {
+    body {
+        background-repeat: repeat;
+        background-position: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
     header {
         background-color: #d3d3d3;
-        display: flex;
-        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
         padding: 20px;
         width: max-content;
+    }
+
+    main {
+        margin-top: 60px;
+        width: 400px;
     }
     
     #sobre .sobre-mim .container p {
@@ -69,6 +89,13 @@
     
     #projetos li {
         width: 70%;
+    }
+
+    footer {
+        width: 500px;
+        margin-top: auto;
+        padding: 20px;
+        background-color: #d3d3d3;
     }
 }
 
@@ -91,8 +118,11 @@
     }
     
     #projetos li {
-        width: 90%;
+        width: 80%;
     }
     
+    footer {
+        width: max-content;
+    }
 }
 
