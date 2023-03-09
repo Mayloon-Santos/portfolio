@@ -13,7 +13,7 @@
         justify-content: center;
         align-items: center;
 
-        font-size: 1.1rem;
+        font-size: 1.7rem;
         padding: 50px;
         margin: 50px;
         width: 1000px;
@@ -78,9 +78,9 @@
     #sobre .sobre-mim .container p {
         display: flex;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
 
-        font-size: 0.6rem;
+        font-size: 1.1rem;
         padding: 10px;
         margin: 10px;
         width: 400px;
@@ -110,7 +110,7 @@
     }
     
     #sobre .sobre-mim .container p {
-        font-size: 0.6rem;
+        font-size: 1.0rem;
         padding: 1px;
         margin: 1px;
         width: 330px;

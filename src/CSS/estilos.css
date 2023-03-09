@@ -136,8 +136,9 @@ section {
 }
 
 .sobre-mim p {
-  font-size: 1.4rem;
+  font-size: 2.0rem;
   color: #FFFFFF;
+  font-family: 'Caveat', cursive;
 
   display: flex;
   flex-direction: column;
